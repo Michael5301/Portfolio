@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+	font-family: "Noto Sans JP", serif;
+}
+
+body {
+	box-sizing: border-box;
+	font-family: "Noto Sans JP", serif;
+	font-weight: 300;
+
+	background-image: url(/src/img/assets/neurons.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: scroll;
+}
+html{
+	scroll-behavior: smooth;
+}
+
+header {
+	background-image: url(/src/img/assets/neurons.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: scroll;
+}
+

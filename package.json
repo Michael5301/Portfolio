@@ -1,17 +1,17 @@
 {
   "name": "reactportfolio",
-  "homepage": "https://github.com/Michael5301/Portfolio.git",
+  "homepage": "https://michael5301.github.io/Portfolio/",
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "lint": "eslint .",
-    "preview": "vite preview",
-    "predeploy ":  "npm run build",
-    "deploy ": " gh-pages -d dist"
-  },
+"scripts": {
+  "dev": "vite",
+  "build": "vite build",
+  "lint": "eslint .",
+  "preview": "vite preview",
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d dist"
+},
   "dependencies": {
     "framer-motion": "^11.15.0",
     "gh-pages": "^6.3.0",

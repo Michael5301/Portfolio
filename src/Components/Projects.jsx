@@ -1,10 +1,9 @@
-import bandigo from "/src/img/projectImages/Bandigo desktop.png";
-
-import plumbing from "/src/img/projectImages/plumber desktop.png";
-import agency from "/src/img/projectImages/WebAgency Desktop.png";
-import bandigoMobile from "/src/img/projectImages/Bandigo mobile.png";
-import plumbingMobile from "/src/img/projectImages/plumber mobile.png";
-import agencymobile from "/src/img/projectImages/WebAgency Monile.png";
+import bandigo from "../img/projectImages/Bandigodesktop.png";
+import plumbing from "../img/projectImages/plumberdesktop.png";
+import agency from "../img/projectImages/WebAgencyDesktop.png";
+import bandigoMobile from "../img/projectImages/Bandigomobile.png";
+import plumbingMobile from "../img/projectImages/plumbermobile.png";
+import agencymobile from "../img/projectImages/WebAgencyMonile.png";
 
 function Projects() {
 	/* ends here */

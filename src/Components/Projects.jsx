@@ -55,7 +55,7 @@ function Projects() {
 				<img
 					src={agency}
 					alt=""
-					className="hidden md:block max-w-[90%] m-auto rounded-t-[20rem] shadow-2xl"
+					className="hidden md:block m-auto rounded-t-[20rem] shadow-2xl"
 					id="box2"
 				/>
 				<img

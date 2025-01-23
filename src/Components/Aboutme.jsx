@@ -2,10 +2,10 @@ import profileImg from "../img/assets/ProfileIMG.png";
 
 function Aboutme() {
 	return (
-		<div className="bg-white" id="aboutme" >
+		<div className="bg-white pb-6 lg:pb-12" id="aboutme" >
 			{/* container */}
 
-			<section className="grid gap-10 max-w-[1200px] mx-auto px-5 py-10 md:py-20">
+			<section className="grid gap-10 max-w-[1200px] mx-auto px-5 py-5 md:py-10">
 				{/* heading */}
 				<h2 className="text-4xl font-light flex justify-start py-5 md:py-10">
 					<span className="text-fuchsia-600 ">02.</span>

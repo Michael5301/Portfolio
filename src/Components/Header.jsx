@@ -3,11 +3,10 @@ import theball from "../img/assets/Purple-glas.png";
 
 function Header() {
 	return (
-		<header className="text-white h-[max(100vh, 1440px)]">
-			
+		<header className="text-white lg:h-[calc(-80px+100vh)] flex justify-center items-center">
 
-			<div className="max-w-[1200px] px-5 mx-auto py-5 md:py-10">
-				<div className="grid gap-16 lg:grid-cols-2 mx-auto md:h-[max(100vh, 1440px)]">
+			<div className="max-w-[1200px] 2xl:max-w-[1440px] before:p-5 m-auto lg:py-10 ">
+				<div className="grid gap-16 lg:grid-cols-2 mx-auto">
 					{/* header text */}
 					<div className="flex flex-col justify-center px-5 md:px-10 gap-10 overflow-hidden">
 						<motion.h1
@@ -70,13 +69,12 @@ function Header() {
 						>
 							<p className="text-2xl">
 								{" "}
-								<span className="px-2">✓</span> 500+ timmar
+								<span className="pr-2">✓</span> 500+ timmar
 								kodat
 							</p>
 							<p className="text-2xl">
 								{" "}
-								<span className="px-2">✓</span>S
-								webbutvecklar{" "}
+								<span className="pr-2">✓</span>Självlärd webbutvecklar{" "}
 							</p>
 						</motion.div>
 					</div>

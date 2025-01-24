@@ -1,4 +1,4 @@
-import { motion } from "framer-motion";
+import { AnimatePresence, motion } from "framer-motion";
 import theball from "../img/assets/Purple-glas.png";
 
 function Header() {
@@ -10,7 +10,7 @@ function Header() {
 					{/* header text */}
 					<div className="flex flex-col justify-center px-5 md:px-10 pt-5 gap-10 overflow-hidden">
 						<motion.h1
-							className="text-4xl md:text-6xl xl:text-7xl font-thin"
+							className="text-4xl xl:text-6xl font-thin"
 							initial={{ x: "-200%" }}
 							animate={{ x: 0 }}
 							transition={{
@@ -24,11 +24,11 @@ function Header() {
 
 						<motion.p
 							className="text-2xl font-thin"
-							initial={{ x: "-200%" }}
+							initial={{ x: "-100%" }}
 							animate={{ x: 0 }}
 							transition={{
 								delay: 0,
-								duration: 2
+								duration: 1
 							}}
 						>
 							Jag hjälper företag att öka sin försäljning med
@@ -80,17 +80,19 @@ function Header() {
 					</div>
 
 					<div className=" flex flex-col justify-end">
+						<AnimatePresence>
 						<motion.img
-							initial={{ y: "-200%" }}
+							initial={{ y: "-300%" }}
 							animate={{ y: 0 }}
 							transition={{
 								delay: 0,
-								duration: 4,
+								duration: 3,
 								type: "spring"
 							}}
 							src={theball}
 							className="mb-[-120px]"
 						></motion.img>
+						</AnimatePresence>
 					</div>
 				</div>
 			</div>

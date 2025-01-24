@@ -1,11 +1,12 @@
 import { AnimatePresence, motion } from "framer-motion";
 import theball from "../img/assets/Purple-glas.png";
+// import Neurons from '../img/assets/neurons.jpg'
 
 function Header() {
 	return (
-		<header className="text-white lg:h-[calc(-80px+100vh)] flex justify-center items-center">
-
-			<div className="max-w-[1200px] 2xl:max-w-[1440px] py-5 m-auto lg:py-10 ">
+		<header className="text-white lg:h-[calc(-80px+100vh)] flex justify-center items-center relative">
+			<div className="absolute inset-0 bg-black opacity-80"></div>
+			<div className="max-w-[1200px] 2xl:max-w-[1440px] py-5 m-auto lg:py-10 z-10">
 				<div className="grid gap-16 lg:grid-cols-2 mx-auto">
 					{/* header text */}
 					<div className="flex flex-col justify-center px-5 md:px-10 pt-5 gap-10 overflow-hidden">
@@ -59,7 +60,7 @@ function Header() {
 						</motion.div>
 
 						<motion.div
-							className="flex flex-col gap-2 font-600"
+							className="flex flex-col gap-2"
 							initial={{ y: '+200%', opacity:0.5 }}
 							animate={{ y: '0%' , opacity: 1 }}
 							transition={{
@@ -67,19 +68,20 @@ function Header() {
 								duration: 1
 							}}
 						>
-							<p className="text-sm font-semibold">
+							<p className="text-normal">
 								{" "}
 								<span className="pr-2">✓</span> 500+ timmar
 								kodat
 							</p>
-							<p className="text- font-semibold">
+							<p className="text-normal">
 								{" "}
 								<span className="pr-2">✓</span>Självlärd webbutvecklar{" "}
 							</p>
 						</motion.div>
 					</div>
 
-					<div className=" flex flex-col justify-end">
+					<div className="flex flex-col justify-end items-center overflow-visible relative z-0">
+						{/* <img src={Neurons} alt="" className="absolute top-0 h-[80vh] w-72 rounded-t-[40rem]"/> */}
 						<AnimatePresence>
 						<motion.img
 							initial={{ y: "-300%" }}

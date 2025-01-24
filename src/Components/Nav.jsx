@@ -25,7 +25,7 @@ const Nav = () => {
           <img
             src={Menu}
             alt=""
-            className="block lg:hidden tex-white w-6 cursor-pointer"
+            className="block lg:hidden tex-white w-8 cursor-pointer"
             onClick={() => setIsOpen(!isOpen)}
           />
         </div>
@@ -34,7 +34,7 @@ const Nav = () => {
       {isOpen && (
         <AnimatePresence>
           <motion.div
-            className="lg:hidden flex flex-col gap-10 items-end p-5 text-xl bg-black opacity-95 text-white fixed h-screen w-screen z-10 px-10"
+            className="lg:hidden flex flex-col gap-10 items-end p-5 text-xl bg-black opacity-95 text-white fixed h-screen w-screen z-10 px-10 z-20"
             initial={{ x: "100%" }}
             animate={{ x: isOpen ? "0%" : "100%" }}
             transition={{ duration: 0.5 }}

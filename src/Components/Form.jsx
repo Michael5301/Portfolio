@@ -2,7 +2,7 @@
 
 function Form() {
 	return (
-		<div className="bg-slate-800 opacity-95">
+		<div className="bg-slate-800 opacity-95 py-10">
 
 		<form
 			className="px-5 mx-auto  py-10 md:py-20"

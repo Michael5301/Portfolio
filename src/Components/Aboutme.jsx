@@ -24,7 +24,7 @@ function Aboutme() {
 					</div>
 
 					<div className="flex flex-col justify-center text-xl gap-5 md:gap-10 ">
-						<h2 className="text-3xl font-light">Michael Gagi</h2>
+						<h2 className="text-3xl lg:text-4xl xl:text-5xl font-light">Michael Gagi</h2>
 
 						<p className="font-light ">
 							Jag hjälper företag att öka sin försäljning med
@@ -34,7 +34,7 @@ function Aboutme() {
 
 						<div className="flex gap-20 text-xl ">
 							<div className="">
-								<span className="font-semibold"> 500 +</span>
+								<span className=" text-xl font-semibold"> 500 +</span>
 								<p>Timmar kodat</p>
 							</div>
 

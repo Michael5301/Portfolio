@@ -6,7 +6,7 @@ const Footer = () => {
 	return (
 		<div className="bg-gradient-to-r from-fuchsia-700 via-purple-700 to-pink-500 py-5 text-white">
 
-			<footer className="px-5 grid md:grid-cols-2 gap-10 md:gap-20 mx-auto">
+			<footer className="px-5 lg:px-10 xl:px-20 grid md:grid-cols-2 gap-10 md:gap-20 mx-auto">
 				<div className="text-center">
 
 					<a href="#form">
@@ -22,7 +22,7 @@ const Footer = () => {
 					</p>
 				</div>
 
-				<div className=" text-center flex justify-center items-center gap-10 text-3xl">
+				<div className=" text-center flex justify-end items-end gap-10 text-3xl">
 					<a href="https://github.com/Michael5301">
 						<FaGithub/>
 					</a>
@@ -30,9 +30,10 @@ const Footer = () => {
 						<CiLinkedin />
 					</a>
 
-					<a href="https://mail.google.com/mail/u/0/#inbox?compose=new">
+					<a href="mailto:maikogagi1e@gmail.com">
 						<MdOutlineEmail />
 					</a>
+
 				</div>
 			</footer>
 			<div className="text-center p-2">

@@ -21,52 +21,52 @@ const Stack = () => {
 
 				<div className="flex flex-wrap justify-center items-center gap-5">
 
-					<div className="w-32 p-2 shadow-2xl flex flex-col justify-center items-center rounded bg-white opacity-80 text-slate-600 border-0">
+					<div className="w-32 p-2 shadow-2xl flex flex-col justify-center items-center rounded bg-white opacity-80 text-slate-600 border-0 hover:scale-105 ease-in-out cursor-pointer duration-300">
 						<img src={reacticon} alt="" width="48px"></img>
 						<p className="text-xl">react</p>
 					</div>
 
-					<div className="w-32 p-2 shadow-2xl flex flex-col justify-center items-center rounded  bg-white opacity-80 text-slate-600 border-0">
+					<div className="w-32 p-2 shadow-2xl flex flex-col justify-center items-center rounded  bg-white opacity-80 text-slate-600 border-0 hover:scale-105 ease-in-out cursor-pointer duration-300">
 						<img src={firebase} alt="" width="48px"></img>
 						<p className="text-xl">firebase</p>
 					</div>
 
-					<div className="w-32 p-2 shadow-2xl flex flex-col justify-center items-center rounded  bg-white opacity-80 text-slate-600 border-0">
+					<div className="w-32 p-2 shadow-2xl flex flex-col justify-center items-center rounded  bg-white opacity-80 text-slate-600 border-0 hover:scale-105 ease-in-out cursor-pointer duration-300">
 						<img src={javascripticon} alt="" width="48px"></img>
 						<p className="text-xl">javascript</p>
 					</div>
 
-					<div className="w-32 p-2 shadow-2xl flex flex-col justify-center items-center rounded  bg-white opacity-80 text-slate-600 border-0">
+					<div className="w-32 p-2 shadow-2xl flex flex-col justify-center items-center rounded  bg-white opacity-80 text-slate-600 border-0 hover:scale-105 ease-in-out cursor-pointer duration-300">
 						<img src={typescript} alt="" width="48px"></img>
 						<p className="text-xl">typescript</p>
 					</div>
 
-					<div className="w-32 p-2 shadow-2xl flex flex-col justify-center items-center rounded  bg-white opacity-80 text-slate-600 border-0">
+					<div className="w-32 p-2 shadow-2xl flex flex-col justify-center items-center rounded  bg-white opacity-80 text-slate-600 border-0 hover:scale-105 ease-in-out cursor-pointer duration-300">
 						<img src={mongo} alt="" width="48px"></img>
 						<p className="text-xl">mongo db</p>
 					</div>
 
-					<div className="w-32 p-2 shadow-2xl flex flex-col justify-center items-center rounded  bg-white opacity-80 text-slate-600 border-0">
+					<div className="w-32 p-2 shadow-2xl flex flex-col justify-center items-center rounded  bg-white opacity-80 text-slate-600 border-0 hover:scale-105 ease-in-out cursor-pointer duration-300">
 						<img src={bootstrap} alt="" width="48px"></img>
 						<p className="text-xl">bootstrap</p>
 					</div>
 
-					<div className="w-32 p-2 shadow-2xl flex flex-col justify-center items-center rounded  bg-white opacity-80 text-slate-600 border-0">
+					<div className="w-32 p-2 shadow-2xl flex flex-col justify-center items-center rounded  bg-white opacity-80 text-slate-600 border-0 hover:scale-105 ease-in-out cursor-pointer duration-300">
 						<img src={tailwindcss} alt="" width="48px"></img>
 						<p className="text-xl">tailwind</p>
 					</div>
 
-					<div className="w-32 p-2 shadow-2xl flex flex-col justify-center items-center rounded  bg-white opacity-80 text-slate-600 border-0">
+					<div className="w-32 p-2 shadow-2xl flex flex-col justify-center items-center rounded  bg-white opacity-80 text-slate-600 border-0 hover:scale-105 ease-in-out cursor-pointer duration-300">
 						<img src={html} alt="" width="48px"></img>
 						<p className="text-xl">html</p>
 					</div>
 
-					<div className="w-32 p-2 shadow-2xl flex flex-col justify-center items-center rounded  bg-white opacity-80 text-slate-600 border-0">
+					<div className="w-32 p-2 shadow-2xl flex flex-col justify-center items-center rounded  bg-white opacity-80 text-slate-600 border-0 hover:scale-105 ease-in-out cursor-pointer duration-300">
 						<img src={css} alt="" width="48px"></img>
 						<p className="text-xl">css</p>
 					</div>
 
-					<div className="w-32 p-2 shadow-2xl flex flex-col justify-center items-center rounded  bg-white opacity-80 text-slate-600 border-0">
+					<div className="w-32 p-2 shadow-2xl flex flex-col justify-center items-center rounded  bg-white opacity-80 text-slate-600 border-0 hover:scale-105 ease-in-out cursor-pointer duration-300">
 						<img src={nextjs} alt="" width="48px"></img>
 						<p className="text-xl">NextJs</p>
 					</div>

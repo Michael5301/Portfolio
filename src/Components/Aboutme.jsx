@@ -7,9 +7,8 @@ function Aboutme() {
 
 			<section className="grid gap-10 max-w-[1200px] mx-auto px-5 py-5 md:py-10">
 				{/* heading */}
-				<h2 className="text-4xl font-light flex justify-start py-5 md:py-10">
-					<span className="text-fuchsia-600 ">02.</span>
-					<span>Om mig</span>
+				<h2 className="text-4xl font-light flex justify-start py-10 md:py-20">
+					<span className="text-fuchsia-600 ">Om mig</span>
 				</h2>
 				{/* aboutmeContainer */}
 

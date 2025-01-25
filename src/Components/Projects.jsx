@@ -28,13 +28,13 @@ function Projects() {
 					<img
 						src={bandigoMobile}
 						alt=""
-						className="md:hidden m-auto rounded-t-[16rem] sticky:top-20 shadow-2xl"
+						className="md:hidden m-auto rounded-t-[16rem] sticky top-20 shadow-2xl"
 						id="box1"
 					/>
 				
 			</div>
 			{/* project 2*/}
-			<div className="sticky top-60">
+			<div className="sticky top-40 lg:top-80">
 				<img
 					src={plumbing}
 					alt=""
@@ -45,7 +45,7 @@ function Projects() {
 				<img
 					src={plumbingMobile}
 					alt=""
-					className=" md:hidden m-auto rounded-t-[16rem] sticky top-80 shadow-2xl"
+					className=" md:hidden m-auto rounded-t-[16rem] sticky top-10 shadow-2xl"
 					id="box1"
 				/>
 			</div>

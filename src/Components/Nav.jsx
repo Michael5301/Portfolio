@@ -12,9 +12,9 @@ const Nav = () => {
 
   return (
     <>
-      <nav className="bg-black text-white opacity-95 sticky top-0 z-10">
+      <nav className="bg-black text-white opacity-95 sticky top-0 z-50">
         <div className="flex justify-between items-center px-5 bg-transparent h-20 font-thin ">
-          <h2 className="text-4xl font">MG</h2>
+          <h2 className="text-4xl font cursor-pointer">MG</h2>
 
           <div className="hidden lg:flex justify-between gap-5 text-2xl">
             <a href="#aboutme">Om Mig</a>

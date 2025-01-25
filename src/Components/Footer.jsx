@@ -22,7 +22,7 @@ const Footer = () => {
 					</p>
 				</div>
 
-				<div className=" text-center flex justify-end items-end gap-10 text-3xl">
+				<div className=" text-center flex justify-start lg:justify-end items-end gap-10 text-3xl">
 					<a href="https://github.com/Michael5301">
 						<FaGithub/>
 					</a>
@@ -36,11 +36,12 @@ const Footer = () => {
 
 				</div>
 			</footer>
-			<div className="text-center p-2">
-				<a href="tel:+46739855874" className="text-center p-5">
+
+			<div className="text-center pt-5">
+				<a href="tel:+46739855874" className="text-center">
 					+46 739 855 874
 				</a>
-				<p className="text-center p-2">&copy; 2025 Michael Samson</p>
+				<p className="text-center">&copy; 2025 Michael Samson</p>
 			</div>
 		</div>
 	);

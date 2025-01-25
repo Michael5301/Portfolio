@@ -21,36 +21,36 @@ function Projects() {
 					<img
 						src={bandigo}
 						alt=""
-						className="hidden md:block m-auto rounded-t-[16rem] sticky top-20 shadow-2xl"
+						className="hidden md:block m-auto rounded-t-[16rem] shadow-2xl"
 						id="box1"
 					/>
 
 					<img
 						src={bandigoMobile}
 						alt=""
-						className="md:hidden m-auto rounded-t-[16rem] sticky top-20 shadow-2xl"
+						className="md:hidden m-auto rounded-t-[16rem]  shadow-2xl"
 						id="box1"
 					/>
 				
 			</div>
 			{/* project 2*/}
-			<div className="sticky top-40 lg:top-80">
+			<div className="sticky top-40 lg:top-40">
 				<img
 					src={plumbing}
 					alt=""
-					className="hidden md:block m-auto rounded-t-[20rem] sticky top-80 shadow-2xl"
+					className="hidden md:block m-auto rounded-t-[20rem]  shadow-2xl"
 					id="box2"
 				/>
 
 				<img
 					src={plumbingMobile}
 					alt=""
-					className=" md:hidden m-auto rounded-t-[16rem] sticky top-10 shadow-2xl"
+					className=" md:hidden m-auto rounded-t-[16rem] shadow-2xl"
 					id="box1"
 				/>
 			</div>
 
-			<div className=" sticky top-0" id="box3">
+			<div className=" sticky top-60" id="box3">
 				{/* <img src={AppSink}></img> */}
 				<img
 					src={agency}

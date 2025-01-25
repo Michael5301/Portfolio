@@ -1,15 +1,16 @@
 import { AnimatePresence, motion } from "framer-motion";
 import theball from "../img/assets/Purple-glas.png";
-import btnImg from '../img/btn/btn.png'
-import btnHover1 from '../img/btn/btn-hover1.png'
-import btnHover2 from '../img/btn/btn-hover2.png'
-// import Neurons from '../img/assets/neurons.jpg'
+import Neurons from '../img/assets/neurons.jpg'
 
 function Header() {
 	return (
 		<header className="text-white lg:h-[calc(-80px+100vh)] flex justify-center items-center">
 			<div className="absolute inset-0 bg-black opacity-80"></div>
+
+
+			<img src={Neurons} alt="" className="hidden xl:block absolute bottom-0 h-5/6 rounded-t-[40rem] w-1/5 mb-0 right-96"/>
 			<div className="max-w-[1200px] 2xl:max-w-[1440px] py-5 m-auto lg:py-10 z-10">
+
 				<div className="grid gap-16 lg:grid-cols-2 mx-auto">
 					{/* header text */}
 					<div className="flex flex-col justify-center px-5 md:px-10 pt-5 gap-10 overflow-hidden">
@@ -53,13 +54,13 @@ function Header() {
 							}}
 						>
 							<a href="#form">
-							<button className="bg-[url('/src/img/btn/btn-hover2.png')]  hover:bg-[url('/src/img/btn/btn-hover1.png')]  py-3 px-6 text-[16px] md:text-xl shadow-2xl ease-in-out duration-300 text-slate-800 hover:text-white font-semibold" >
+							<button className="bg-[url('/src/img/btn/btn-hover2.png')] hover:bg-[url('/src/img/btn/btn-hover1.png')]  py-3 px-4 text-[16px] md:text-lg shadow-2xl ease-in-out duration-300 text-slate-800 hover:text-white font-semibold" >
 								TA KONTAKT
 							</button>
 							</a>
 
 							<a href="#projects">
-							<button className="bg-[url('/src/img/btn/btn-hover2.png')] hover:hover:bg-[url('/src/img/btn/btn.png')] py-3 px-6 text-[16px] md:text-xl shadow-2xl ease-in-out duration-300 text-slate-800 hover:text-white font-semibold" >
+							<button className="bg-[url('/src/img/btn/btn-hover2.png')] hover:hover:bg-[url('/src/img/btn/btn.png')] py-3 px-4 text-[16px] md:text-xl shadow-2xl ease-in-out duration-300 text-slate-800 hover:text-white font-semibold" >
 								SE PROJEKT
 							</button>
 							</a>
@@ -88,8 +89,8 @@ function Header() {
 						</motion.div>
 					</div>
 
-					<div className="flex flex-col justify-end items-center overflow-visible relative z-0">
-						{/* <img src={Neurons} alt="" className="absolute top-0 h-[80vh] w-72 rounded-t-[40rem]"/> */}
+					<div className="flex flex-col justify-end items-center overflow-visible">
+						
 						<AnimatePresence>
 						<motion.img
 							initial={{ y: "-300%" }}

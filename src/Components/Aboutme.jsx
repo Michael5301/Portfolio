@@ -23,7 +23,7 @@ function Aboutme() {
 					</div>
 
 					<div className="flex flex-col justify-center text-xl gap-5 md:gap-10 ">
-						<h2 className="text-3xl lg:text-4xl xl:text-5xl font-light">Michael Gagi</h2>
+						<h2 className="text-3xl lg:text-4xl xl:text-5xl font-light">Michael Samson</h2>
 
 						<p className="font-light ">
 							Jag hjälper företag att öka sin försäljning med
@@ -59,7 +59,7 @@ function Aboutme() {
 							href="#form"
 							id=""
 						>
-							<button className="bg-[url('/src/img/btn/btn.png')] py-3 px-6 text-[16px] text-white md:text-xl shadow-2xl">
+							<button className="bg-[url('/src/img/btn/btn.png')] py-3 px-4 text-[16px] text-white xl:text-lg shadow-2xl hover:bg-[url('/src/img/btn/btn-hover2.png')] duration-300 ease-in-out hover:text-slate-800 font-semibold">
 								TA KONTAKT →
 							</button>
 						</a>

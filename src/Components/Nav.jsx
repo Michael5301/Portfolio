@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { AnimatePresence, motion } from "framer-motion";
-import Menu from "../img/TechIcons/menu-add.png";
+import Menu from "/public/img/TechIcons/menu-add.png";
 import { CiLinkedin } from "react-icons/ci";
 import { FaGithub } from "react-icons/fa";
 import { MdOutlineEmail } from "react-icons/md";
@@ -12,7 +12,7 @@ const Nav = () => {
 
   return (
     <>
-      <nav className="bg-black text-white opacity-95 sticky top-0 z-50" id="home">
+      <nav className="bg-black text-white opacity-95 sticky top-0 z-50 p-2 md:py-5" id="home">
         <div className="flex justify-between items-center px-5 bg-transparent h-20 font-thin ">
           <a href="#" className="text-4xl font cursor-pointer">MS</a>
 

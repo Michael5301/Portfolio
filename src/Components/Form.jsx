@@ -48,7 +48,8 @@ function Form() {
 				/>
 				<button
 					type="submit"
-					className=" bg-[url('/src/img/btn/btn.png')] py-3 px-12 text-[16px] text-white md:text-xl shadow-2xl"
+					className=" bg-[url('/public/img/btn/btn.png')] py-3 px-12 text-[16px] text-white md:text-xl shadow-2xl 
+					hover:scale-105 duration-300 font-semibold"
 				>
 					Skicka →
 				</button>

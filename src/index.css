@@ -11,7 +11,7 @@ body {
 	font-family: "Noto Sans JP", serif;
 	font-weight: 300;
 
-	background-image: url(/src/img/assets/neurons.jpg);
+	background-image: url(/public/img/assets/neurons.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
@@ -22,10 +22,11 @@ html{
 }
 
 header {
-	background-image: url(/src/img/assets/neurons.jpg);
+	background-image: url(/public/img/assets/neurons.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
 	background-attachment: scroll;
+	max-height: 100vh;
 }
 

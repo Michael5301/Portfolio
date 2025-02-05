@@ -1,9 +1,9 @@
-import bandigo from "../img/projectImages/Bandigodesktop.png";
-import plumbing from "../img/projectImages/plumberdesktop.png";
-import agency from "../img/projectImages/WebAgencyDesktop.png";
-import bandigoMobile from "../img/projectImages/Bandigomobile.png";
-import plumbingMobile from "../img/projectImages/plumbermobile.png";
-import agencymobile from "../img/projectImages/WebAgencyMonile.png";
+import bandigo from "/public/img/projectImages/Bandigodesktop.png";
+import plumbing from "/public//img/projectImages/plumberdesktop.png";
+import agency from "/public/img/projectImages/WebAgencyDesktop.png";
+import bandigoMobile from "/public/img/projectImages/Bandigomobile.png";
+import plumbingMobile from "/public/img/projectImages/plumbermobile.png";
+import agencymobile from "/public/img/projectImages/WebAgencyMonile.png";
 
 function Projects() {
 	/* ends here */
@@ -11,7 +11,7 @@ function Projects() {
 	return (
 		/* project container */
 		<div
-			className="max-w-[1200px] px-5 mx-auto grid gap-10 py-10 md:py-20 mb-10"
+			className="max-w-[1440px] px-5 mx-auto grid gap-10 py-10 md:py-20 mb-10"
 			id="projects"
 		>
 			<h1 className="text-center text-3xl py-10 text-white">Projekt</h1>

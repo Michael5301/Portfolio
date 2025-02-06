@@ -1,4 +1,4 @@
-import profileImg from "../public/img/assets/ProfileIMG.png";
+import profile from "/public/img/assets/ProfileIMG.png";
 
 function Aboutme() {
 	return (
@@ -15,8 +15,8 @@ function Aboutme() {
 				<div className="grid md:grid-cols-2 gap-20 justify-between md:h-160 mx-auto">
 					<div>
 						<img
-							src={profileImg}
-							alt="s"
+							src={profile}
+							alt="profile image"
 							width="450px"
 							className="shadow-3xl grayscale brightness-75 rounded-sm mx-auto"
 						></img>

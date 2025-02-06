@@ -1,4 +1,4 @@
-import profile from "/public/img/assets/ProfileIMG.png";
+import profile from "../assets/images/ProfileIMG.png";
 
 function Aboutme() {
 	return (
@@ -13,7 +13,7 @@ function Aboutme() {
 				{/* aboutmeContainer */}
 
 				<div className="grid md:grid-cols-2 gap-20 justify-between md:h-160 mx-auto">
-					<div>
+					<div className="bg-[url(/public/img/assets/ProfileIMG.png)]">
 						<img
 							src={profile}
 							alt="profile image"
